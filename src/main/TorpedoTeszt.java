@@ -10,9 +10,9 @@ public class TorpedoTeszt {
     }
 
     public String tesztLoves(int poz) {
-        Hajo hajo = new Hajo();
+        Hajo hajo = new Hajo(new int[]{2,3,4});
         String t = hajo.talalat(poz);
-        assert t.equals("Találat") : "nem jó a találat";
+        assert t.equals("találat") : "nem jó a találat";
         return "";
     }
 
