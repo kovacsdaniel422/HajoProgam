@@ -4,8 +4,9 @@ public class Hajo {
 
     private int[] pozicio;
 
-    public String loves(int poz) {
-        return "";
+    public String talalat(int poz){
+    
+    return "Találat";
     }
 
 }

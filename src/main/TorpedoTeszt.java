@@ -1,22 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package main;
 
-/**
- *
- * @author Szf1_A2
- */
 public class TorpedoTeszt {
-    
+
     public static void main(String[] args) {
+        System.out.println("Teszt");
+        new TorpedoTeszt().tesztLoves(4);
         
+        //assert 1 == 2 : "Nem jó a találat ellenörzése";
     }
-    public String tesztLoves(int poz){
-    
-    return "";
+
+    public String tesztLoves(int poz) {
+        Hajo hajo = new Hajo();
+        String t = hajo.talalat(poz);
+        assert t.equals("Találat") : "nem jó a találat";
+        return "";
     }
-    
+
 }
